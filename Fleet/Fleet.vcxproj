@@ -74,7 +74,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\Ship.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Cargo.h" />
+    <ClInclude Include="include\logger.h" />
+    <ClInclude Include="include\Ship.h" />
+    <ClInclude Include="include\Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
