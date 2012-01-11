@@ -1,0 +1,10 @@
+# git ignore file
+
+# Visual Studio files
+*.sdf
+*.opensdf
+*.user
+*.suo
+ipch/
+Debug/
+Release/
