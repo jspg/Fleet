@@ -2,20 +2,20 @@
 #include "../include/Game.h"
 #include "../include/View.h"
 
-Game::Game(View view)
+using namespace std;
+
+Game::Game(View *view)
 {
-  std::cout << "Game constructor" << std::endl;
-  setView(view);
+	setView(view);
 }
 
-void Game::setView(View view)
+void Game::setView(View *view)
 {
-  std::cout << "Game setview" << std::endl;
 	_view = view;
 }
 
 void Game::play()
 {
-  std::cout << "Game play" << std::endl;
-  _view.introduction();
+	_view->introduction();
+	char c = _view->mainMenu();
 }

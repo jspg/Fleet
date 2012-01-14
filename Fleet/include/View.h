@@ -5,7 +5,8 @@ class View {
 public:
     View();
 	void introduction();
-    
+	char mainMenu();
+
 private:
 
 };

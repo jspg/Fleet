@@ -5,12 +5,13 @@
 
 class Game {
 public:
-    Game(View view);
+	Game(View *view);
 	void play();
 
 private:
-	void setView(View view);
-	View _view;
+	void setView(View *view);
+	View *_view;
 };
 
 #endif
+

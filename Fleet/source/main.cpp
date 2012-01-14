@@ -5,9 +5,7 @@
 
 int main()
 {
-  std::cout << "A dummy main" << std::endl;
-
-  View view;
+  View *view = new View;
   Game game(view);
   game.play();
 
