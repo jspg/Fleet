@@ -4,6 +4,7 @@
 class View {
 public:
     View();
+	void introduction();
     
 private:
 

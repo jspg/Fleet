@@ -74,12 +74,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="source\Game.cpp" />
     <ClCompile Include="source\main.cpp" />
     <ClCompile Include="source\Ship.cpp" />
     <ClCompile Include="source\View.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Cargo.h" />
+    <ClInclude Include="include\Game.h" />
     <ClInclude Include="include\logger.h" />
     <ClInclude Include="include\Ship.h" />
     <ClInclude Include="include\Vector2.h" />
