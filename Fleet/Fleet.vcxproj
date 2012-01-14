@@ -76,12 +76,14 @@
   <ItemGroup>
     <ClCompile Include="source\main.cpp" />
     <ClCompile Include="source\Ship.cpp" />
+    <ClCompile Include="source\View.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Cargo.h" />
     <ClInclude Include="include\logger.h" />
     <ClInclude Include="include\Ship.h" />
     <ClInclude Include="include\Vector2.h" />
+    <ClInclude Include="include\View.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
