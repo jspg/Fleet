@@ -4,6 +4,7 @@
 class Level {
 public:
 	Level();
+	virtual void sayName() = 0;
 
 private:
 

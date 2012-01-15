@@ -21,5 +21,6 @@ void Game::play()
 	_view->introduction();
 	char c = _view->mainMenu();
 	LevelFactory levelFactory;
-	Level level = levelFactory.getLevel(c);
+	Level *level = levelFactory.getLevel(c);
+	level->sayName();
 }
