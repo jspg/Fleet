@@ -77,6 +77,7 @@
     <ClCompile Include="source\Game.cpp" />
     <ClCompile Include="source\Level.cpp" />
     <ClCompile Include="source\LevelFactory.cpp" />
+    <ClCompile Include="source\LevelView.cpp" />
     <ClCompile Include="source\main.cpp" />
     <ClCompile Include="source\Ship.cpp" />
     <ClCompile Include="source\Tutorial1.cpp" />
@@ -89,6 +90,7 @@
     <ClInclude Include="include\Game.h" />
     <ClInclude Include="include\Level.h" />
     <ClInclude Include="include\LevelFactory.h" />
+    <ClInclude Include="include\LevelView.h" />
     <ClInclude Include="include\logger.h" />
     <ClInclude Include="include\Ship.h" />
     <ClInclude Include="include\Tutorial1.h" />

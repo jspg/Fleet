@@ -1,7 +1,9 @@
 #ifndef TUTORIAL1VIEW_H
 #define TUTORIAL1VIEW_H
 
-class Tutorial1View {
+#include "../include/LevelView.h"
+
+class Tutorial1View : public LevelView {
 public:
 	Tutorial1View();
 
