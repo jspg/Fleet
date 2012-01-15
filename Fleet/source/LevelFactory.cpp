@@ -18,10 +18,8 @@ Level* LevelFactory::getLevel(char c)
 			Tutorial1View v;
 			return new Tutorial1();
 		case '2':
-			Tutorial1View v2;
 			return new Tutorial2();
 		default:
-			Tutorial1View v3;
 			throw new exception("Invalid parameter in LevelFactory::getLevel. Param = " + c);
 	}
 }
