@@ -1,13 +1,18 @@
 #ifndef LEVEL_H
 #define LEVEL_H
 
+#include "../include/LevelView.h"
+
 class Level {
 public:
 	Level();
-	virtual void sayName() = 0;
+	virtual void play() = 0;
+
+protected:
+	void setView(LevelView view);
 
 private:
-
+	LevelView _view;
 };
 
 #endif

@@ -6,11 +6,12 @@
 
 using namespace std;
 
-Tutorial1::Tutorial1()
+Tutorial1::Tutorial1(Tutorial1View view)
 {
+	setView(view);
 }
 
-void Tutorial1::sayName()
+void Tutorial1::play()
 {
-	cout << "I am a Tut 1" << endl;
+	cout << "Tut 1 play" << endl;
 }

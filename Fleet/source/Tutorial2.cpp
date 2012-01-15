@@ -9,7 +9,7 @@ Tutorial2::Tutorial2()
 {
 }
 
-void Tutorial2::sayName()
+void Tutorial2::play()
 {
-	cout << "I am a Tut 2" << endl;
+	cout << "Tut 2 play" << endl;
 }

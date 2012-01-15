@@ -6,7 +6,7 @@
 class Tutorial2 : public Level {
 public:
 	Tutorial2();
-	void sayName();
+	void play();
 
 private:
 
