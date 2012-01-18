@@ -9,6 +9,7 @@ using namespace std;
 
 Tutorial1::Tutorial1(World* world, Tutorial1View* view)
 {
+	setWorld(world);
 	setView(view);
 }
 
@@ -17,7 +18,13 @@ void Tutorial1::setView(Tutorial1View* view)
 	_view = view;
 }
 
+void Tutorial1::setWorld(World* world)
+{
+	_world = world;
+}
+
 void Tutorial1::play()
 {
 	_view->introduction();
+	_view->showWorld();
 }

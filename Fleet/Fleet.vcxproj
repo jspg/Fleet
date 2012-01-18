@@ -80,6 +80,7 @@
     <ClCompile Include="source\LevelView.cpp" />
     <ClCompile Include="source\main.cpp" />
     <ClCompile Include="source\Ship.cpp" />
+    <ClCompile Include="source\StandardPlayer.cpp" />
     <ClCompile Include="source\Tutorial1.cpp" />
     <ClCompile Include="source\Tutorial1View.cpp" />
     <ClCompile Include="source\Tutorial2.cpp" />
@@ -94,6 +95,7 @@
     <ClInclude Include="include\LevelView.h" />
     <ClInclude Include="include\logger.h" />
     <ClInclude Include="include\Ship.h" />
+    <ClInclude Include="include\StandardPlayer.h" />
     <ClInclude Include="include\Tutorial1.h" />
     <ClInclude Include="include\Tutorial1View.h" />
     <ClInclude Include="include\Tutorial2.h" />
