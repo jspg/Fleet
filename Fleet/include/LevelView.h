@@ -4,6 +4,7 @@
 class LevelView {
 public:
 	LevelView();
+	virtual void introduction() = 0;
 
 private:
 

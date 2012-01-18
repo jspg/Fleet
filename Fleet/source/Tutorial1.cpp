@@ -6,12 +6,17 @@
 
 using namespace std;
 
-Tutorial1::Tutorial1(Tutorial1View view)
+Tutorial1::Tutorial1(Tutorial1View* view)
 {
 	setView(view);
 }
 
+void Tutorial1::setView(Tutorial1View* view)
+{
+	_view = view;
+}
+
 void Tutorial1::play()
 {
-	cout << "Tut 1 play" << endl;
+	_view->introduction();
 }

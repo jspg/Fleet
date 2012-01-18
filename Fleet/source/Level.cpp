@@ -10,7 +10,7 @@ Level::Level()
 {
 }
 
-void Level::setView(LevelView view)
+void Level::setView(LevelView* view)
 {
 	_view = view;
 }

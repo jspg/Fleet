@@ -6,11 +6,12 @@
 
 class Tutorial1 : public Level {
 public:
-	Tutorial1(Tutorial1View view);
-	void play();
+	Tutorial1(Tutorial1View* view);
+void play();
 
 private:
-
+	void setView(Tutorial1View* view);
+	Tutorial1View* _view;
 };
 
 #endif

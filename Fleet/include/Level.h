@@ -9,10 +9,10 @@ public:
 	virtual void play() = 0;
 
 protected:
-	void setView(LevelView view);
+	void setView(LevelView* view);
 
-private:
-	LevelView _view;
+protected:
+	LevelView* _view;
 };
 
 #endif

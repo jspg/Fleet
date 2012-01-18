@@ -3,9 +3,10 @@
 
 #include "../include/LevelView.h"
 
-class Tutorial1View : public LevelView {
+class Tutorial1View {
 public:
 	Tutorial1View();
+	void introduction();
 
 };
 

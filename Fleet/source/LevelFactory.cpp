@@ -15,7 +15,7 @@ Level* LevelFactory::getLevel(char c)
 	switch (c) {
 		case '1':
 			{
-				Tutorial1View v;
+				Tutorial1View* v = new Tutorial1View;
 				return new Tutorial1(v);
 			}
 		case '2':
