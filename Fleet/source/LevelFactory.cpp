@@ -17,7 +17,7 @@ Level* LevelFactory::getLevel(char c)
 	switch (c) {
 		case '1':
 			{
-				StandardPlayer* player1 = new StandardPlayer;
+				StandardPlayer* player1 = new StandardPlayer(1000);
 				World* world1 = new World(player1);
 				Tutorial1View* view1 = new Tutorial1View(world1);
 				return new Tutorial1(world1, view1);

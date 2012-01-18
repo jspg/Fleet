@@ -6,6 +6,9 @@
 class World {
 public:
 	World(StandardPlayer* player);
+	int getPlayerGold();
+	int test();
+	StandardPlayer* getPlayer();
 
 private:
 	void setPlayer(StandardPlayer* player);

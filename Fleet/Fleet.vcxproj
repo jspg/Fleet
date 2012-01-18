@@ -74,6 +74,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="source\Currency.cpp" />
     <ClCompile Include="source\Game.cpp" />
     <ClCompile Include="source\Level.cpp" />
     <ClCompile Include="source\LevelFactory.cpp" />
@@ -89,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Cargo.h" />
+    <ClInclude Include="include\Currency.h" />
     <ClInclude Include="include\Game.h" />
     <ClInclude Include="include\Level.h" />
     <ClInclude Include="include\LevelFactory.h" />

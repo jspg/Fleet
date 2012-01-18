@@ -2,6 +2,7 @@
 #define TUTORIAL1VIEW_H
 
 #include "../include/LevelView.h"
+#include "../include/StandardPlayer.h"
 #include "../include/World.h"
 
 class Tutorial1View {

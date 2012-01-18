@@ -3,11 +3,12 @@
 
 class StandardPlayer {
 public:
-	StandardPlayer();
-	
+	StandardPlayer(int gold);
+	int getGold();
 
 private:
-
+	void setGold(int gold);
+	int _gold;
 };
 
 #endif
