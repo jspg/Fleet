@@ -84,6 +84,7 @@
     <ClCompile Include="source\Tutorial1View.cpp" />
     <ClCompile Include="source\Tutorial2.cpp" />
     <ClCompile Include="source\View.cpp" />
+    <ClCompile Include="world\World.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Cargo.h" />
@@ -98,6 +99,7 @@
     <ClInclude Include="include\Tutorial2.h" />
     <ClInclude Include="include\Vector2.h" />
     <ClInclude Include="include\View.h" />
+    <ClInclude Include="include\World.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

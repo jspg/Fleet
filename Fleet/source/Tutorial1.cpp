@@ -3,10 +3,11 @@
 #include <sstream>
 #include "../include/Tutorial1.h"
 #include "../include/Tutorial1View.h"
+#include "../include/World.h"
 
 using namespace std;
 
-Tutorial1::Tutorial1(Tutorial1View* view)
+Tutorial1::Tutorial1(World* world, Tutorial1View* view)
 {
 	setView(view);
 }

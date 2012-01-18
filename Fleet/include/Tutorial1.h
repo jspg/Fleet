@@ -3,10 +3,11 @@
 
 #include "../include/Level.h"
 #include "../include/Tutorial1View.h"
+#include "../include/World.h"
 
 class Tutorial1 : public Level {
 public:
-	Tutorial1(Tutorial1View* view);
+	Tutorial1(World* world, Tutorial1View* view);
 void play();
 
 private:

@@ -3,6 +3,7 @@
 #include <sstream>
 #include "../include/LevelFactory.h"
 #include "../include/Tutorial1View.h"
+#include "../include/World.h"
 
 using namespace std;
 
@@ -15,8 +16,9 @@ Level* LevelFactory::getLevel(char c)
 	switch (c) {
 		case '1':
 			{
-				Tutorial1View* v = new Tutorial1View;
-				return new Tutorial1(v);
+				World* world1 = new World;
+				Tutorial1View* view1 = new Tutorial1View;
+				return new Tutorial1(world1, view1);
 			}
 		case '2':
 			{
