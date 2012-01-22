@@ -8,6 +8,7 @@ using namespace std;
 
 World::World(StandardPlayer* player)
 {
+    setPlayer(player);
 }
 
 void World::setPlayer(StandardPlayer* player)

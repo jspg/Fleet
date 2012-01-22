@@ -9,7 +9,7 @@ using namespace std;
 
 Tutorial1View::Tutorial1View(World* world)
 {
-
+    setWorld(world);
 }
 
 void Tutorial1View::introduction()
@@ -39,4 +39,9 @@ void Tutorial1View::showWorld()
 	cout << "Press enter to continue..." << endl;
 	cin.ignore();
 	system("CLS");
+}
+
+void Tutorial1View::setWorld(World* world)
+{
+    _world = world;
 }
